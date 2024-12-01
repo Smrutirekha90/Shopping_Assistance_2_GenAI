@@ -57,11 +57,11 @@ To get started with ShopAssist AI, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/dynamicanupam/ShopAssist-AI.git
-   cd ShopAssist-AI
+   git clone https://github.com/Smrutirekha90/Shopping_Assistance_2_GenAI.git
+   cd Shopping_Assistance_2_GenAI
    ```
 2. **Lunch VS Code from Anaconda**
-   - In VS Code go to `File` > `Open Folder...` and select the `ShopassistAI` folder.
+   - In VS Code go to `File` > `Open Folder...` and select the `Shopping_Assistance_2_GenAI` folder.
    - Open a terminal in VS Code (``Ctrl+` `` or go to `Terminal` > `New Terminal`).
 2. **Install dependencies:**
 ```   
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ```
 3. **Initialize the conversation:**  
 ```
-python app.py
+flask run
 ```
 #### Note: This version includes steps to create and activate the Conda environment with Python 3.11.9 0r above, ensuring users set up python environment correctly before installing dependencies and running the application.
 
