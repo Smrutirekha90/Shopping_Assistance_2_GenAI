@@ -63,13 +63,18 @@ To get started with ShopAssist AI, follow these steps:
 2. **Lunch VS Code from Anaconda**
    - In VS Code go to `File` > `Open Folder...` and select the `Shopping_Assistance_2_GenAI` folder.
    - Open a terminal in VS Code (``Ctrl+` `` or go to `Terminal` > `New Terminal`).
-2. **Enable the virtual environment:**
+   - 
+3. **Enable the virtual environment:**
    - Enabled Virtula Env in VSCode
-3. **Install dependencies in Virtual Env:**
+   - 
+4. **Install dependencies in Virtual Env:**
 ```   
 pip install -r requirements.txt
 ```
-3. **Initialize the ChatBot:**  
+5. **Update the API Keys:**
+   - updatet he OpenAI Keys in OpenAI_API_Key.txt file
+     
+6. **Initialize the ChatBot:**  
 ```
 flask run
 ```
